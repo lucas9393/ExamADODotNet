@@ -1,0 +1,11 @@
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.deps.json
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.runtimeconfig.json
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.runtimeconfig.dev.json
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.dll
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.csprojAssemblyReference.cache
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.csproj.CoreCompileInputs.cache
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.AssemblyInfoInputs.cache
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.AssemblyInfo.cs
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.pdb
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.dll
+C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.pdb
