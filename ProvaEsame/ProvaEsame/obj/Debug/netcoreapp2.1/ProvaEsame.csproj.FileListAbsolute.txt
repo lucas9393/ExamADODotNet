@@ -9,3 +9,14 @@ C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcore
 C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.pdb
 C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.dll
 C:\Users\Allievo.ALLIEVO109\source\repos\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.pdb
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.deps.json
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.runtimeconfig.json
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.runtimeconfig.dev.json
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.dll
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\bin\Debug\netcoreapp2.1\ProvaEsame.pdb
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.csprojAssemblyReference.cache
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.csproj.CoreCompileInputs.cache
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.AssemblyInfoInputs.cache
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.AssemblyInfo.cs
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.dll
+C:\Users\Luca\Documents\GitHub\ExamADODotNet\ProvaEsame\ProvaEsame\obj\Debug\netcoreapp2.1\ProvaEsame.pdb

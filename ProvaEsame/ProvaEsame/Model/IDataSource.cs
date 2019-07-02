@@ -8,6 +8,7 @@ namespace ProvaEsame.Model
     {
         IEnumerable<Book> AllBooks();
         IEnumerable<Author> AllAuthors();
+        IEnumerable<int> AllIdAuthors();
         void Insert(int insIdAuthor, DateTime insDate, string insGenre, string insTitle, int insNumberPages, string insEditor, decimal insPrice);
        
     }

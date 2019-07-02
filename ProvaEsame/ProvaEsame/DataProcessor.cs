@@ -21,6 +21,10 @@ namespace ProvaEsame
         {
             return source.AllAuthors();
         }
+        public bool GetIdAuthor(int id)
+        {
+            return source.AllIdAuthors().Contains(id);
+        }
 
         public void InsertBook(int insIdAuthor, DateTime insPublication, string insGenre, string insTitle, int insPages, string insEditor, decimal insPrice)
         {

@@ -89,7 +89,14 @@ namespace ProvaEsame
             Console.Write("Prezzo: ");
             decimal insPrice = Convert.ToDecimal(Console.ReadLine());
 
-            processor.InsertBook(insIdAuthor, parsedDate, insGenre, insTitle, insNumberPages, insEditor, insPrice);
+            if(processor.GetIdAuthor(insIdAuthor))
+            {
+                processor.InsertBook(insIdAuthor, parsedDate, insGenre, insTitle, insNumberPages, insEditor, insPrice);
+            }
+            else
+            {
+                Console.WriteLine("\nNon è possibile inserire un libro senza aver prima inserito l'autore\n");
+            }
         }
         
         private void GetAveragePrice()

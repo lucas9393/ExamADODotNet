@@ -8,9 +8,10 @@ namespace ProvaEsame
 {
     public class DBDataSource : IDataSource
     {
-        public const string connString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Exam;Integrated Security=True;";
+        public const string connString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ExamAdo;Integrated Security=True;";
         public const string queryAllBooks = "SELECT Title, IdAuthor, Genre, Pages, Editor, Price, Publication FROM Books";
         public const string queryAllAuthors = "SELECT Name, Surname, Birthday, Email FROM Authors";
+        public const string queryAllIdAuthors = "SELECT Id FROM Authors";
         public IEnumerable<Book> AllBooks()
         {
             using (SqlConnection connection = new SqlConnection(connString))
@@ -67,7 +68,7 @@ namespace ProvaEsame
                               reader.GetString(posName),
                               reader.GetString(posSurname),
                               reader.GetDateTime(posBirthday),
-                              reader.GetString(posMail)
+                              !reader.IsDBNull(posMail) ? reader.GetString(posMail) : "Mail non disponibile"
                             );
                         authors.Add(author);
                     }
@@ -75,6 +76,7 @@ namespace ProvaEsame
                 }
             }
         }
+
 
         public void Insert(int insIdAuthor, DateTime insPublication, string insGenre, string insTitle, int insNumberPages, string insEditor, decimal insPrice)
         {
@@ -98,9 +100,25 @@ namespace ProvaEsame
             }
         }
 
-        public decimal GetAveragePrice()
+        public IEnumerable<int> AllIdAuthors()
         {
-            throw new NotImplementedException();
+            using (SqlConnection connection = new SqlConnection(connString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(queryAllIdAuthors, connection))
+                {
+                    SqlDataReader reader = command.ExecuteReader();
+                    var posIdAuthor = reader.GetOrdinal("Id");
+                    var idAuthors = new List<int>();
+
+                    while (reader.Read())
+                    {
+                        var id = reader.GetInt32(posIdAuthor);
+                        idAuthors.Add(id);
+                    }
+                    return idAuthors;
+                }
+            }
         }
     }
 }
